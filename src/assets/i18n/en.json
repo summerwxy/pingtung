@@ -1,0 +1,13 @@
+{
+    "SYS": {
+        "TITLE": "THE HOME"
+    }, 
+    "NAVIGATOR": {
+        "HOME": "Home",
+        "ABOUT": "About",
+        "TOURS": "Tours",
+        "CONTACT": "Contact"
+    }
+
+
+}
