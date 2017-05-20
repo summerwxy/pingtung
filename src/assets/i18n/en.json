@@ -1,13 +1,52 @@
 {
-    "SYS": {
-        "TITLE": "THE HOME"
+    "sys": {
+        "title": "THE HOME"
     }, 
-    "NAVIGATOR": {
-        "HOME": "Home",
-        "ABOUT": "About",
-        "TOURS": "Tours",
-        "CONTACT": "Contact"
+    "navigator": {
+        "home": "Home",
+        "about": "About",
+        "tours": "Tours",
+        "contact": "Contact"
+    }, 
+    "banner": {
+        "title1": "Find <span class=\"tm-yellow-text\">The Best</span> Place",
+        "subtitle1": "For Your Holidays",
+        "title2": "Lorem <span class=\"tm-yellow-text\">Ipsum</span> Dolor",
+        "subtitle2": "Wonderful Destinations",
+        "title3": "Proin <span class=\"tm-yellow-text\">Gravida</span> Nibhvell",
+        "subtitle3": "Velit Auctor",
+        "more": "Learn More"
+    }, 
+    "home": {
+        "tab1title": "Hotel",
+        "hotel0": "Select Hotel",
+        "hotel1": "Shangri-La",
+        "hotel2": "Chatrium",
+        "hotel3": "Four Seasons",
+        "hotel4": "Hilton",
+        "checkInDate": "Check-in Date",
+        "checkOutDate": "Check-out Date",
+        "guests": "Guests",
+        "checkNow": "Check Now",
+
+        "tab2title": "Car Rental",
+        "model0": "Select Model",
+        "model1": "BMW",
+        "model2": "Mercedes-Benz",
+        "model3": "Toyota",
+        "model4": "Honda",
+        "pickupDate": "Pickup Date",
+        "returnDate": "Return Date",
+        "options0": "Options",
+        "options1": "Child Seat",
+        "options2": "GPS Navigator",
+        "options3": "Insurance"
+    },
+
+
+    "404": {
+        "title": "404 ERROR!",
+        "subtitle": "page not found",
+        "goHome": "Home Page"
     }
-
-
 }

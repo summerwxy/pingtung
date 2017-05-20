@@ -12,7 +12,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
 
-
 			$('#hotelCarTabs a').click(function (e) {
 			  e.preventDefault()
 			  $(this).tab('show')
@@ -37,10 +36,7 @@ export class HomeComponent implements OnInit {
 			    }
 		  	});
 		
-		// Load Flexslider when everything is loaded.
-    $('.flexslider').flexslider({
-      controlNav: false
-    });
+
 
  }
 

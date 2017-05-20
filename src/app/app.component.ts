@@ -10,7 +10,7 @@ import {TranslateService} from '@ngx-translate/core';
 export class AppComponent {
   title = 'app works!';
 
-
+  
   constructor(translate: TranslateService) {
     // this language will be used as a fallback when a translation isn't found in the current language
     translate.setDefaultLang('en');
@@ -18,4 +18,6 @@ export class AppComponent {
     // the lang to use, if the lang isn't available, it will use the current loader to get them
     translate.use('zh-tw');
   }
+
+
 }

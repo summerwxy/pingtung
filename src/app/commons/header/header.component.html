@@ -3,8 +3,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-        <a href="#" class="tm-site-name" i18n="title of website|the name of this website">
-          {{ 'SYS.TITLE' | translate }}
+        <a routerLink="/" class="tm-site-name" i18n="title of website|the name of this website">
+          {{ 'sys.title' | translate }}
         </a>	
       </div>
       <div class="col-lg-6 col-md-8 col-sm-9">
@@ -13,10 +13,10 @@
             </div>
         <nav class="tm-nav">
         <ul>
-          <li><a href="index.html" class="active">{{ 'NAVIGATOR.HOME' | translate }}</a></li>
-          <li><a href="about.html">{{ 'NAVIGATOR.ABOUT' | translate }}</a></li>
-          <li><a href="tours.html">{{ 'NAVIGATOR.TOURS' | translate }}</a></li>
-          <li><a href="contact.html">{{ 'NAVIGATOR.CONTACT' | translate }}</a></li>
+          <li><a routerLink="/home">{{ 'navigator.home' | translate }}</a></li>
+          <li><a routerLink="/about">{{ 'navigator.about' | translate }}</a></li>
+          <li><a routerLink="/tours">{{ 'navigator.tours' | translate }}</a></li>
+          <li><a routerLink="/contact">{{ 'navigator.contact' | translate }}</a></li>
         </ul>
       </nav>		
       </div>				

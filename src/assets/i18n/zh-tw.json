@@ -1,13 +1,45 @@
 {
-    "SYS": {
-        "TITLE": "微旅"
+    "sys": {
+        "title": "屏東微旅"
     }, 
-    "NAVIGATOR": {
-        "HOME": "首頁",
-        "ABOUT": "關於",
-        "TOURS": "Tours",
-        "CONTACT": "聯絡我們"
+    "navigator": {
+        "home": "首頁",
+        "about": "關於我們",
+        "tours": "旅遊",
+        "contact": "聯絡我們"
+    }, 
+    "banner": {
+        "title1": "這是 <span class=\"tm-yellow-text\">標題文字</span> 一",
+        "subtitle1": "副標題一 啦啦啦啦",
+        "title2": "這是 <span class=\"tm-yellow-text\">標題文字</span> 二",
+        "subtitle2": "副標題二 呵呵呵呵",
+        "title3": "這是 <span class=\"tm-yellow-text\">標題文字</span> 三",
+        "subtitle3": "副標題三 嘿嘿嘿嘿",
+        "more": "更多"
+    }, 
+    "home": {
+        "tab1title": "找房間",
+        "hotel0": "選擇房型",
+        "hotel1": "Shangri-La",
+        "hotel2": "Chatrium",
+        "hotel3": "Four Seasons",
+        "hotel4": "Hilton",
+        "checkInDate": "入住日期",
+        "checkOutDate": "離店日期",
+        "guests": "人數",
+        "checkNow": "登記",
+
+        "tab2title": "租車子",
+        "model0": "選擇型號",
+        "model1": "BMW",
+        "model2": "Mercedes-Benz",
+        "model3": "Toyota",
+        "model4": "Honda",
+        "pickupDate": "使用日期",
+        "returnDate": "歸還日期",
+        "options0": "選配",
+        "options1": "小孩座椅",
+        "options2": "GPS 導航",
+        "options3": "保險"
     }
-
-
 }

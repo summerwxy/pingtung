@@ -1,37 +1,6 @@
+<app-banner></app-banner>
 
-	
-	<!-- Banner -->
-	<section class="tm-banner">
-		<!-- Flexslider -->
-		<div class="flexslider flexslider-banner">
-		  <ul class="slides">
-		    <li>
-			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Find <span class="tm-yellow-text">The Best</span> Place</h1>
-					<p class="tm-banner-subtitle">For Your Holidays</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>	
-				</div>
-				<img src="assets/img/banner-1.jpg" alt="Image" />	
-		    </li>
-		    <li>
-			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Lorem <span class="tm-yellow-text">Ipsum</span> Dolor</h1>
-					<p class="tm-banner-subtitle">Wonderful Destinations</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>	
-				</div>
-		      <img src="assets/img/banner-2.jpg" alt="Image" />
-		    </li>
-		    <li>
-			    <div class="tm-banner-inner">
-					<h1 class="tm-banner-title">Proin <span class="tm-yellow-text">Gravida</span> Nibhvell</h1>
-					<p class="tm-banner-subtitle">Velit Auctor</p>
-					<a href="#more" class="tm-banner-link">Learn More</a>	
-				</div>
-		      <img src="assets/img/banner-3.jpg" alt="Image" />
-		    </li>
-		  </ul>
-		</div>	
-	</section>
+
 <div class="tm-gray-bg">
 	<!-- gray bg -->	
 	<section class="container tm-home-section-1" id="more">
@@ -41,10 +10,10 @@
 				<div class="tm-home-box-1">
 					<ul class="nav nav-tabs tm-white-bg" role="tablist" id="hotelCarTabs">
 					    <li role="presentation" class="active">
-					    	<a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">Hotel</a>
+					    	<a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">{{ 'home.tab1title' | translate}}</a>
 					    </li>
 					    <li role="presentation">
-					    	<a href="#car" aria-controls="car" role="tab" data-toggle="tab">Car Rental</a>
+					    	<a href="#car" aria-controls="car" role="tab" data-toggle="tab">{{ 'home.tab2title' | translate}}</a>
 					    </li>
 					</ul>
 
@@ -56,16 +25,16 @@
 									<div class="tm-form-inner">
 										<div class="form-group">
 							            	 <select class="form-control">
-							            	 	<option value="">-- Select Hotel -- </option>
-							            	 	<option value="shangrila">Shangri-La</option>
-												<option value="chatrium">Chatrium</option>
-												<option value="fourseasons">Four Seasons</option>
-												<option value="hilton">Hilton</option>
+							            	 	<option value="">-- {{ 'home.hotel0' | translate}} -- </option>
+							            	 	<option value="shangrila">{{ 'home.hotel1' | translate}}</option>
+												<option value="chatrium">{{ 'home.hotel2' | translate}}</option>
+												<option value="fourseasons">{{ 'home.hotel3' | translate}}</option>
+												<option value="hilton">{{ 'home.hotel4' | translate}}</option>
 											</select> 
 							          	</div>
 							          	<div class="form-group">
 							                <div class='input-group date' id='datetimepicker1'>
-							                    <input type='text' class="form-control" placeholder="Check-in Date" />
+							                    <input type='text' class="form-control" placeholder="{{ 'home.checkInDate' | translate}}" />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-calendar"></span>
 							                    </span>
@@ -73,7 +42,7 @@
 							            </div>
 							          	<div class="form-group">
 							                <div class='input-group date' id='datetimepicker2'>
-							                    <input type='text' class="form-control" placeholder="Check-out Date" />
+							                    <input type='text' class="form-control" placeholder="{{ 'home.checkOutDate' | translate}}" />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-calendar"></span>
 							                    </span>
@@ -81,7 +50,7 @@
 							            </div>
 							            <div class="form-group margin-bottom-0">
 							                <select class="form-control">
-							            	 	<option value="">-- Guests -- </option>
+							            	 	<option value="">-- {{ 'home.guests' | translate}} -- </option>
 							            	 	<option value="1">1</option>
 												<option value="2">2</option>
 												<option value="3">3</option>
@@ -91,7 +60,7 @@
 							            </div>
 									</div>							
 						            <div class="form-group tm-yellow-gradient-bg text-center">
-						            	<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
+						            	<button type="submit" name="submit" class="tm-yellow-btn">{{ 'home.checkNow' | translate}}</button>
 						            </div>  
 								</form>
 							</div>
@@ -102,16 +71,16 @@
 									<div class="tm-form-inner">
 										<div class="form-group">
 							            	 <select class="form-control">
-							            	 	<option value="">-- Select Model -- </option>
-							            	 	<option value="shangrila">BMW</option>
-												<option value="chatrium">Mercedes-Benz</option>
-												<option value="fourseasons">Toyota</option>
-												<option value="hilton">Honda</option>
+							            	 	<option value="">-- {{ 'home.model0' | translate}} -- </option>
+							            	 	<option value="shangrila">{{ 'home.model1' | translate}}</option>
+												<option value="chatrium">{{ 'home.model2' | translate}}</option>
+												<option value="fourseasons">{{ 'home.model3' | translate}}</option>
+												<option value="hilton">{{ 'home.model4' | translate}}</option>
 											</select> 
 							          	</div>
 							          	<div class="form-group">
 							                <div class='input-group date-time' id='datetimepicker3'>
-							                    <input type='text' class="form-control" placeholder="Pickup Date" />
+							                    <input type='text' class="form-control" placeholder="{{ 'home.pickupDate' | translate}}" />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-calendar"></span>
 							                    </span>
@@ -119,7 +88,7 @@
 							            </div>
 							          	<div class="form-group">
 							                <div class='input-group date-time' id='datetimepicker4'>
-							                    <input type='text' class="form-control" placeholder="Return Date" />
+							                    <input type='text' class="form-control" placeholder="{{ 'home.returnDate' | translate}}" />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-calendar"></span>
 							                    </span>
@@ -127,15 +96,15 @@
 							            </div>
 							            <div class="form-group">
 							            	 <select class="form-control">
-							            	 	<option value="">-- Options -- </option>
-							            	 	<option value="">Child Seat</option>
-												<option value="">GPS Navigator</option>
-												<option value="">Insurance</option>
+							            	 	<option value="">-- {{ 'home.options0' | translate}} -- </option>
+							            	 	<option value="">{{ 'home.options1' | translate}}</option>
+												<option value="">{{ 'home.options2' | translate}}</option>
+												<option value="">{{ 'home.options3' | translate}}</option>
 											</select> 
 							          	</div>							           
 									</div>							
 						            <div class="form-group tm-yellow-gradient-bg text-center">
-						            	<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
+						            	<button type="submit" name="submit" class="tm-yellow-btn">{{ 'home.checkNow' | translate}}</button>
 						            </div>  
 								</form>
 							</div>
@@ -147,7 +116,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center">
 					<img src="assets/img/index-01.jpg" alt="image" class="img-responsive">
-					<a href="#">
+					<a routerLink="/nothing">
 						<div class="tm-green-gradient-bg tm-city-price-container">
 							<span>New York</span>
 							<span>$6,600</span>
@@ -158,7 +127,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right">
 					<img src="assets/img/index-02.jpg" alt="image" class="img-responsive">
-					<a href="#">
+					<a routerLink="/nothing">
 						<div class="tm-red-gradient-bg tm-city-price-container">
 							<span>Paris</span>
 							<span>$4,200</span>
@@ -172,7 +141,7 @@
 			<div class="row">				
 				<div class="tm-section-header">
 					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>
-					<div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">Lorem Ipsum Dolor</h2></div>
+					<div class="col-lg-6 col-md-6 col-sm-6"><h2 class="tm-section-title">假文產生器</h2></div>
 					<div class="col-lg-3 col-md-3 col-sm-3"><hr></div>	
 				</div>
 			</div>
@@ -180,7 +149,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2">						
 						<img src="assets/img/index-03.jpg" alt="image" class="img-responsive">
-						<h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
+						<h3>因為它背後的故事和設計</h3>
 						<p class="tm-date">28 March 2016</p>
 						<div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
@@ -192,7 +161,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2">						
 					    <img src="assets/img/index-04.jpg" alt="image" class="img-responsive">
-						<h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
+						<h3>烤過得鴨肉軟嫩多汁</h3>
 						<p class="tm-date">26 March 2016</p>
 						<div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
@@ -204,7 +173,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2">						
 					    <img src="assets/img/index-05.jpg" alt="image" class="img-responsive">
-						<h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
+						<h3>一包mandheling咖啡豆</h3>
 						<p class="tm-date">24 March 2016</p>
 						<div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
@@ -216,7 +185,7 @@
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2 tm-home-box-2-right">						
 					    <img src="assets/img/index-06.jpg" alt="image" class="img-responsive">
-						<h3>Proin Gravida Nibhvel Lorem Quis Bind</h3>
+						<h3>香煙我很喜欢咖啡的香味</h3>
 						<p class="tm-date">22 March 2016</p>
 						<div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
@@ -228,7 +197,9 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-12">
-					<p class="home-description">Holiday is free Bootstrap v3.3.5 responsive template for tour and travel websites. You can download and use this layout for any purpose. You do not need to provide a credit link to us. If you have any question, feel free to <a href="http://www.facebook.com/templatemo" target="_parent">contact us</a>. Credit goes to <a rel="nofollow" href="http://unsplash.com" target="_parent">Unspash</a> for images used in this template.</p>					
+					<p class="home-description">
+						主持人問他們最近沉迷的事，淑憶做的基本款吐司還不賴喲！参和，第一次和別人聊天的時候，呢個禮拜，他媽的不長進，像阿不思一樣不喝咖啡，主持人問他們最近沉迷的事，他媽的不長進，喝了一口咖啡，他媽的不長進，輕輕一扯，米歇爾處理酒店遭病毒泄漏的時候，走出来看看美景，停咖啡，領導叫我時沒有聽見，就算在生活中，問別人喜歡喝什麼咖啡是很有用的。大概是咖啡喝太多就是這麼回事吧～我又喝了两杯咖啡燒水，前來事務所看看，倘若你剛剛跟一個男朋友分手不久，可是唱片只有這一盤嗎？						
+					</p>					
 				</div>
 			</div>			
 		</div>
@@ -240,7 +211,7 @@
 			<div class="row">
 				<div class="tm-section-header section-margin-top">
 					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>
-					<div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title">Popular Packages</h2></div>
+					<div class="col-lg-4 col-md-6 col-sm-6"><h2 class="tm-section-title">內容是工具產生的</h2></div>
 					<div class="col-lg-4 col-md-3 col-sm-3"><hr></div>	
 				</div>
 				<div class="col-lg-6">
@@ -249,7 +220,7 @@
 							<img src="assets/img/index-07.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">噢，白天总有点头疼，隔壁的老兄，超可愛是火柴盒包裝，冷咖啡离开了杯面，不好意思，我要去死了，疲憊不堪，也剛好是台幣100</p>
 					        <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -264,7 +235,7 @@
 							<img src="assets/img/index-08.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">朋友幫我帶回14毫克的短hope，台下有些飯不停大叫，在一個安靜的地方待著，最近快把星巴克變圖書館了啊，有点儿小后悔。</p>
 					        <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -279,7 +250,7 @@
 							<img src="assets/img/index-09.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">另一伴都會覺得很溫馨｡請好好珍惜身邊的伴侶，熬夜和宿醉一样难受，午后三点，我要去死了，塞翁失馬，唔哇啊啊！</p>
 					        <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -294,7 +265,7 @@
 							<img src="assets/img/index-10.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">完美，这么高大上的东东，一周7天都沒有休息的時候，咖啡謝謝好討厭喔會關心人是gehbo了點哈哈不過ren真的還不賴嗯謝謝你啦學長</p>
 					        <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -306,4 +277,3 @@
 			</div>		
 		</div>
 	</section>
-
